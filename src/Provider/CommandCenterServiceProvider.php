@@ -1,6 +1,6 @@
 <?php
 
-namespace VeeeneX\CommandCenter\Laravel;
+namespace VeeeneX\CommandCenter\Provider;
 
 use VeeeneX\CommandCenter\CommandApplicationInterface;
 use VeeeneX\CommandCenter\CommandBus;
