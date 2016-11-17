@@ -1,6 +1,7 @@
 # VeeeneX / CommandCenter
 
-** Package is forked from [airbornfoxx/commandcenter](https://github.com/airbornfoxx/commandcenter/blob/master/readme.md) **
+__Package is forked from [airbornfoxx/commandcenter](https://github.com/airbornfoxx/commandcenter/blob/master/readme.md)__
+
 This package provides a framework agnostic architecture for utilizing commands and domain events in your applications. Any of the components can be easily extended for your specific use.
 
 *inspired and expanded on [Jeffrey Way](https://github.com/JeffreyWay) at [Laracasts](https://github.com/Laracasts)*
