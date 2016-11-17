@@ -1,5 +1,5 @@
 {
-    "name": "VeeeneX/command-center",
+    "name": "veeenex/command-center",
     "description": "Commands and domain events for Laravel framework",
     "keywords": ["command", "events", "domain", "bus", "architecture", "laravel"],
     "homepage": "https://github.com/VeeeneX/command-center",
