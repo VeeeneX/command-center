@@ -1,0 +1,41 @@
+{
+    "name": "VeeeneX/command-center",
+    "description": "Commands and domain events for Laravel framework",
+    "keywords": ["command", "events", "domain", "bus", "architecture", "laravel"],
+    "homepage": "https://github.com/VeeeneX/command-center",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Flyingfoxx",
+            "email": "kyle@flyingfoxx.com"
+        },
+        {
+            "name": "VeeeneX",
+            "email": "veeenex@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "laravel/framework": "5.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*",
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "orchestra/testbench": "^3.1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "VeeeneX\\CommandCenter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VeeeneX\\CommandCenter\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+      "test": "phpunit"
+    },
+    "minimum-stability": "stable"
+}
