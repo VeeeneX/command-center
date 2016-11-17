@@ -33,6 +33,12 @@ class CommandCenterServiceProvider extends ServiceProvider
 
     public function register()
     {
+        $this->publishes([
+            __DIR__ . '/../../resources/config/cqrs.php' => config_path('cqrs.php')
+        ], 'config');
+
+        $this->mergeConfigFrom(__DIR__ . '/../../resources/config/cqrs.php', 'cqrs');
+
         $this->registerApplication();
         $this->registerCommandTranslator();
         $this->registerCommandBus();
