@@ -9,7 +9,7 @@ namespace VeeeneX\CommandCenter;
  * @author  Flyingfoxx <kyle@flyingfoxx.com>
  * @author  VeeeneX <veeenex@gmail.com>
  */
-class MainCommandBus implements CommandBus
+class MainCommandBus implements CommandBusInterface
 {
     /**
      * The CommandCenter application.

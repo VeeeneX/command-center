@@ -3,13 +3,12 @@
 namespace VeeeneX\CommandCenter\Provider;
 
 use VeeeneX\CommandCenter\CommandApplicationInterface;
-use VeeeneX\CommandCenter\CommandBus;
 use VeeeneX\CommandCenter\CommandBusInterface;
 use VeeeneX\CommandCenter\CommandTranslatorInterface;
-use VeeeneX\CommandCenter\MainCommandBus;
 use VeeeneX\CommandCenter\CommandTranslator;
 use VeeeneX\CommandCenter\Application;
 use VeeeneX\CommandCenter\CommandApplication;
+use VeeeneX\CommandCenter\MainCommandBus;
 use VeeeneX\CommandCenter\ValidationCommandBus;
 use Illuminate\Support\ServiceProvider;
 
