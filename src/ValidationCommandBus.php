@@ -9,12 +9,12 @@ namespace VeeeneX\CommandCenter;
  * @author  Flyingfoxx <kyle@flyingfoxx.com>
  * @author  VeeeneX <veeenex@gmail.com>
  */
-class ValidationCommandBus implements CommandBus
+class ValidationCommandBus implements CommandBusInterface
 {
     /**
      * The CommandCenter command bus.
      *
-     * @var CommandBus
+     * @var CommandBusInterface
      */
     protected $bus;
 
@@ -28,7 +28,7 @@ class ValidationCommandBus implements CommandBus
     /**
      * The CommandCenter translator.
      *
-     * @var CommandTranslator
+     * @var CommandTranslatorInterface
      */
     protected $translator;
 

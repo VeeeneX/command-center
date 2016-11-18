@@ -32,6 +32,6 @@ trait Commander
      */
     private function getCommandBus()
     {
-        return App::make(CommandBus::class);
+        return App::make(CommandBusInterface::class);
     }
 }
